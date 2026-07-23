@@ -12,11 +12,11 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #000000;
+        background-color: #ffffff;
     }
-    @media (prefers-color-scheme: light) {
+    @media (prefers-color-scheme: dark) {
         .stApp {
-            background-color: #ffffff !important;
+            background-color: #000000 !important;
         }
     }
     div.stButton > button {
