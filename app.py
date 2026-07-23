@@ -8,6 +8,39 @@ import numpy as np
 
 st.set_page_config(page_title="Health Condition Predictor", layout="centered")
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #fffafa;
+    }
+    div.stButton > button {
+        background-color: #e53935;
+        color: white;
+        border: 1px solid #e53935;
+    }
+    div.stButton > button:hover {
+        background-color: #c62828;
+        border-color: #c62828;
+    }
+    .stTextInput > div > div > input,
+    .stNumberInput > div > div > input,
+    .stSelectbox > div > div,
+    .stSlider > div[data-baseweb="slider"] > div > div > div,
+    .stTextArea > div > div > textarea {
+        border-color: #e53935;
+    }
+    .st-bb {
+        color: #e53935;
+    }
+    .st-cd {
+        color: #e53935;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title('Health Condition Predictor')
 st.markdown("### Enter your health statistics to get a prediction")
 
