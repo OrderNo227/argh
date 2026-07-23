@@ -16,7 +16,7 @@ st.markdown(
     }
     @media (prefers-color-scheme: dark) {
         .stApp {
-            background-color: #000000 !important;
+            background-color: #000000;
         }
     }
     div.stButton > button {
