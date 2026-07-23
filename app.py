@@ -36,6 +36,14 @@ st.markdown(
     .st-cd {
         color: #e53935;
     }
+    h1 {
+        color: #000000;
+        font-weight: 700;
+    }
+    h3 {
+        color: #b71c1c;
+        font-weight: 600;
+    }
     </style>
     """,
     unsafe_allow_html=True,
