@@ -14,6 +14,11 @@ st.markdown(
     .stApp {
         background-color: #000000;
     }
+    @media (prefers-color-scheme: light) {
+        .stApp {
+            background-color: #ffffff !important;
+        }
+    }
     div.stButton > button {
         background-color: #e53935;
         color: white;
