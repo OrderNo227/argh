@@ -12,7 +12,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #fffafa;
+        background-color: #000000;
     }
     div.stButton > button {
         background-color: #e53935;
@@ -36,13 +36,17 @@ st.markdown(
     .st-cd {
         color: #e53935;
     }
-    h1 {
-        color: #000000;
-        font-weight: 700;
+    h1, .stTitle, [data-testid="stHeading"] h1,
+    .st-emotion-cache-1y4p8pa h1,
+    .st-emotion-cache-1y4p8pa .stTitle {
+        color: #000000 !important;
+        font-weight: 700 !important;
     }
-    h3 {
-        color: #b71c1c;
-        font-weight: 600;
+    h3, .stMarkdown h3, [data-testid="stMarkdownContainer"] h3,
+    .st-emotion-cache-1y4p8pa h3,
+    .st-emotion-cache-1y4p8pa .stMarkdown h3 {
+        color: #b71c1c !important;
+        font-weight: 600 !important;
     }
     </style>
     """,
