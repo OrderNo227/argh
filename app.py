@@ -5,11 +5,6 @@ import numpy as np
 
 # Load the trained model
 # Assuming exampleModel.pkl is in the same directory
-try:
-    model = joblib.load('exampleModel.pkl')
-except FileNotFoundError:
-    st.error("Error: 'exampleModel.pkl' not found. Please ensure the model file is in the same directory.")
-    st.stop()
 
 st.set_page_config(page_title="Health Condition Predictor", layout="centered")
 
