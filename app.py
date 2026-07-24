@@ -40,6 +40,21 @@ def reset_input(key):
 
 # Input fields for all features (excluding 'id')
 with st.sidebar:
+    st.markdown(
+        """
+        <style>
+            button[title^="Reset"] {
+                color: red;
+                border-color: red;
+            }
+            button[title^="Reset"]:hover {
+                background-color: #ffe5e5;
+            }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.header("User Input Features")
 
     if st.button("Reset all values", use_container_width=True):
