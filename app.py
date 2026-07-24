@@ -44,11 +44,14 @@ with st.sidebar:
         """
         <style>
             button[title^="Reset"] {
-                color: red;
-                border-color: red;
+                color: #a00;
+                border-color: #a00;
+                transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
             }
             button[title^="Reset"]:hover {
+                color: #ff0000;
                 background-color: #ffe5e5;
+                border-color: #ff0000;
             }
         </style>
         """,
