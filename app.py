@@ -48,10 +48,10 @@ with st.sidebar:
             }
             body {
                 min-height: 100vh;
-                background: linear-gradient(180deg, #ffffff 50%, #e8e8e8 100%);
+                background: linear-gradient(180deg, #ffffff 0%, #e8e8e8 100%);
             }
             .theme-dark body {
-                background: linear-gradient(180deg, #000000 50%, #4f4f4f 100%);
+                background: linear-gradient(180deg, #000000 0%, #4f4f4f 100%);
             }
             button[title^="Reset"] {
                 color: #a00;
@@ -63,7 +63,7 @@ with st.sidebar:
                 background-color: #ffe5e5;
                 border-color: #ff0000;
             }
-
+            
         </style>
         """,
         unsafe_allow_html=True,
