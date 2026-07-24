@@ -43,6 +43,16 @@ with st.sidebar:
     st.markdown(
         """
         <style>
+            :root {
+                color-scheme: light dark;
+            }
+            body {
+                min-height: 100vh;
+                background: linear-gradient(180deg, #ffffff 0%, #e8e8e8 100%);
+            }
+            .theme-dark body {
+                background: linear-gradient(180deg, #000000 0%, #4f4f4f 100%);
+            }
             button[title^="Reset"] {
                 color: #a00;
                 border-color: #a00;
