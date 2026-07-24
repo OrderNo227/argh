@@ -40,35 +40,6 @@ def reset_input(key):
 
 # Input fields for all features (excluding 'id')
 with st.sidebar:
-    st.markdown(
-        """
-        <style>
-            :root {
-                color-scheme: light dark;
-            }
-            body {
-                min-height: 100vh;
-                background: linear-gradient(180deg, #ffffff 0%, #e8e8e8 100%);
-            }
-            .theme-dark body {
-                background: linear-gradient(180deg, #000000 0%, #4f4f4f 100%);
-            }
-            button[title^="Reset"] {
-                color: #a00;
-                border-color: #a00;
-                transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
-            }
-            button[title^="Reset"]:hover {
-                color: #ff0000;
-                background-color: #ffe5e5;
-                border-color: #ff0000;
-            }
-            
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
-
     st.header("User Input Features")
 
     if st.button("Reset all values", use_container_width=True):
